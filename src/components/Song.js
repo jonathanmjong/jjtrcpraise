@@ -1,4 +1,5 @@
 import React from "react";
+import "./song.css";
 
 class Song extends React.Component {
   constructor(props) {
@@ -7,10 +8,13 @@ class Song extends React.Component {
 
   render() {
     return (
-      <>
+      <div>
         <h1>{this.props.songTitle}</h1>
-        <img src="./sheetMusic/YetNotIButThroughChristInMeC.jpg"></img>
-      </>
+        <div className="songContainer">
+          <img src="./sheetMusic/YetNotIButThroughChristInMe1C.jpg"></img>
+          <img src="./sheetMusic/YetNotIButThroughChristInMe2C.jpg"></img>
+        </div>
+      </div>
     );
   }
 }

@@ -1,12 +1,13 @@
 import Song from "./Song";
-import "./app.css";
 
 function App() {
   return (
-    <>
+    <div>
       <h1>TRC Praise Team Music</h1>
-      <Song songTitle="YetNotIButThroughChristInMeC" />
-    </>
+      <div>
+        <Song songTitle="YetNotIButThroughChristInMeC" />
+      </div>
+    </div>
   );
 }
 
